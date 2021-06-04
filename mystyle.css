@@ -1,0 +1,296 @@
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: futura-pt, sans-serif;
+    color: white;
+}
+
+/* ------- Header ------- */
+header {
+    display: flex;
+    height: 100px;
+    background-color: #0E0E0E;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    padding-left: 10px;
+}
+
+.nav-items {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    margin-right: 68px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'futura-pt', Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.book-button {
+    padding-right: 40px;
+}
+
+.active_menu_item {
+    text-decoration: underline;
+}
+
+/* -------- Slideshow -------- */
+
+.mySlides {
+    position: relative;
+    width: 100%;
+}
+
+.big-picture {
+    display: flex;
+    height: 815px;
+    justify-content: center;
+}
+
+.big-picture h1 {
+    color: white;
+    align-self: center;
+    letter-spacing: 0.14em;
+    font-size: 76px;
+    font-weight: 500;
+}
+
+.slideshow-text {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* From w3schools.com // https://www.w3schools.com/howto/howto_css_image_text.asp */
+}
+
+#questionmark {
+    color: #BF1B38;
+}
+
+/* -------- Introduction -------- */
+
+.introduction {
+    display: flex;
+    margin: 100px 91px;
+    justify-content: space-between;
+}
+
+.intro-text {
+    align-content: center;
+    width: 35%;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 30px;
+    color: #c9c9c9;
+}
+
+/* Intro gallery */
+
+.intro-gallery {
+}
+
+/* -------- Rooms -------- */
+
+.rooms {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px;
+    margin-bottom: 80px;
+}
+
+.room {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    background-repeat: no-repeat;
+    height: 40vw;
+    width: 40vw;
+    padding-left: 71px;
+}
+
+.room-text {
+    position: absolute;
+    width: 70%;
+    left: 71px;
+    top: 330px;
+    font-size: 26px;
+    line-height: 33px;
+    display: none;
+}
+
+.room-name {
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 0;
+}
+
+.rooms h4 {
+    font-size: 24px;
+    line-height: 0;
+}
+
+.room2 {
+    background-image: url(img/room2.jpg);
+    background-repeat: no-repeat;
+    height: 756px;
+    width: 756px;
+}
+
+/* Hover effects for the room tiles */
+
+#room1:hover>.room-text {
+    display: initial;
+}
+
+#room1:hover>.room-name {
+    opacity: 40%;
+}
+
+#room2:hover>.room-text {
+    display: initial;
+}
+
+#room2:hover>.room-name {
+    opacity: 40%;
+}
+
+/* -------- Reviews -------- */
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 60px;
+    margin-top: 150px;
+}
+
+.review-line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-line1 img {
+    width: 48%;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews button {
+    display: inline-block;
+    background: #DE314F;
+    width: 218px;
+    height: 54px;
+    color: white;
+    font-size: 21px;
+    font-family: 'futura-pt', sans-serif;
+    border: none;
+    margin: 50px auto;
+}
+
+/* ------- Countdown to Tilst opening -------- */
+
+.Tilst-countdown {
+    background-image: url(img/tilst-background.jpg);
+    padding: 100px 0px;
+}
+
+/* -------- styling for the text in Tilst opening ----------------- */
+
+#coming_soon {
+    text-align: center;
+    font-size: 65px;
+    margin-top: 5px;
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-family: 'futura-pt', Arial, Helvetica, sans-serif
+}
+
+/* ------------- styling for the break between the title and the countdown -------------------- */
+
+#straight_line {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* ---------------------------- this is the styling for the countdown clock ------------------ */
+
+#clock {
+    text-align: center;
+    font-size: 65px;
+    margin-top: 40px;
+    font-family: "futura-pt", "Arial", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    font-family: "futura-pt", "Arial", sans-serif;
+    background-color: #0E0E0E;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+
+.li_style1 {
+    flex: 0 0 auto;
+    padding-top: 20px;
+}
+
+.li_style2 {
+    flex: 1 0 auto;
+    padding-top: 20px;
+
+}
+
+.social_style {
+    flex: 1.5 0 auto;
+    padding-top: 80px;
+    margin-left: 915px;
+
+
+}
+
+/* ---------- Media queries ---------- */
+
+.clock_box {
+    background-image: url(/image\ 13.png);
+    color: blue;
+}

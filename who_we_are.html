@@ -1,0 +1,131 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Escapist is an Aarhus based event company, established in the spring of 2017. We focus on creating unique and exciting game experiences for people who are ready to have their wits tested.">
+        <title>About us | Escapist</title>
+        <link rel="stylesheet" href="CSS/whoweare.css">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ped3hpj.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"><img src="img/escapist-logo.png" alt="Escapist logo"></a>
+            <div class="nav-items">
+                <a href="escaperooms.html">Escape rooms</a>
+                <a href="who_we_are.html" class="active_menu_item">About us</a>
+                <a href="jobs.html">Our Team</a>
+                <a href="faq.html">FAQ</a>
+                <div class="book-button">
+                    <img src="./img/CTA.svg">
+                </div>
+            </div>
+        </header>
+
+        <div class="text_box">
+            <h1 class="header1">WHO ARE WE</h1>
+            <p class="paragraph1">Escapist is an Aarhus-based event company, established in the spring of
+                2017.<br>
+                At Escapist, we focus on creating unique and exciting gae experiences for people who are ready to
+                have
+                their wits, teamwork and communication skills challenged.<br>
+                Find our first five-star project, the two escape rooms USS Triton and The Great Diamon Heist, on
+                Klostergade in Aarhus, and look forward to more entertaining conceps in the future. </p>
+        </div>
+        <div class="contact_box">
+            <h2 class="contact_header">Contact Us</h2>
+            <p class="contact_paragraph">If you have any questions you are welcoming to contact us<br><br>
+                ravn@escapist.dk<br>
+                8111 6003
+            </p>
+
+
+        </div>
+        <div class="some_icons_box">
+            <a
+                href="https://www.tripadvisor.dk/Attraction_Review-g189530-d12519332-Reviews-Escapist_Aarhus-Aarhus_East_Jutland_Jutland.html">
+                <img src="img/SoMe img/iconfinder_18-tripadvisor_travel_social_4202797 1.png" alt="Tripadvisor img"
+                    class="some_icons">
+            </a>
+            <a href="https://www.instagram.com/escapist_aarhus/">
+                <img src="img/SoMe img/x36 2 instagram.png" alt="Instagram img" class="some_icons">
+            </a>
+            <a href="mailto:someone@yoursite.com">
+                <img src="img/SoMe img/x31 12 gmail x2C  email x2C  mail.png" alt="Email img" class="some_icons">
+            </a>
+            <a href="https://www.facebook.com/escapistaarhus">
+                <img src="img/SoMe img/x38 0 facebook.png" alt="facebook img" class="some_icons">
+            </a>
+
+        </div>
+
+        <div class="notifications-container">
+            <div id='map' style='width: 1400px; height: 700px; border-radius: 20px;'></div>
+            <script>
+                // The acces token and style link
+                mapboxgl.accessToken =
+                    'pk.eyJ1IjoibWlrYS1sb3JlbnplbiIsImEiOiJja201YXowZHEwY2oxMm9wMTV6cGVucTFkIn0.n1hQhSaVeBpDbtKj2JknBg';
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/mika-lorenzen/ckp5cv46z67jn18oth9m1q8jz'
+                });
+
+                // The variable for the markers   
+                var marker = new mapboxgl.Marker()
+                    .setLngLat([10.105038109305541, 56.187797664413026])
+                    .addTo(map);
+
+                var marker = new mapboxgl.Marker()
+                    .setLngLat([10.202775828949983, 56.158570360287165])
+                    .addTo(map);
+            </script>
+        </div>
+
+
+        <div class="footer">
+            <div class="li_style1">
+                <ul style="list-style-type:none;">
+                    <li>Langkærvej 2B</li>
+                    <li>8381 Tilst</li>
+                    <br>
+                    <li>8111 6003</li>
+                </ul>
+            </div>
+
+            <div class="li_style2">
+                <ul style="list-style-type:none;">
+                    <li>Klostergade 82</li>
+                    <li>8000 Aarhus C</li>
+                    <br>
+                    <li>8111 6003</li>
+                </ul>
+            </div>
+
+            <div class="social_style">
+                <a href="https://www.facebook.com/escapistaarhus"> <img src="img/SoMe img/x38 0 facebook.png"
+                        alt="Facebook" width="40px"></a>
+                <a href="https://www.instagram.com/escapist_aarhus/"> <img src="img/SoMe img/x36 2 instagram.png"
+                        alt="Instagram" width="40px"></a>
+                <a href="mailto:someone@yoursite.com"> <img src="img/SoMe img/x31 12 gmail x2C  email x2C  mail.png"
+                        alt="mail" width="40px"></a>
+                <a
+                    href="https://www.tripadvisor.dk/Attraction_Review-g189530-d12519332-Reviews-Escapist_Aarhus-Aarhus_East_Jutland_Jutland.html">
+                    <img src="img/SoMe img/iconfinder_18-tripadvisor_travel_social_4202797 1.png" alt="Tripadvisor"
+                        width="40px"></a>
+            </div>
+
+
+        </div>
+
+    </body>
+
+    </html>

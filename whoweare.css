@@ -1,0 +1,128 @@
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Background img*/
+
+body {
+    background-image: url(../img/background2.jpg);
+}
+
+
+/* who we are text section */
+
+.text_box {
+    margin-left: 62px;
+    margin-bottom: -80px;
+    width: 800px;
+    height: 302px;
+}
+
+.header1 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    padding-top: 130px;
+}
+
+.paragraph1 {
+    color: #d4d4d4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+}
+
+
+/* Contact Box */
+
+.contact_box {
+    width: 638px;
+    height: 267px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    float: right;
+    margin-top: -100px;
+    margin-right: 133px;
+    margin-top: -100px;
+}
+
+.contact_header {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.contact_paragraph {
+    color: #d4d4d4;
+}
+
+.contact_paragraph {
+    color: #d4d4d4;
+}
+
+/* SoMe Icon section */
+
+.some_icons_box {
+    margin-left: 62px;
+    margin-bottom: 140px;
+    padding-top: 240px;
+}
+
+
+
+.some_icons {
+    width: 60px;
+}
+
+.map {
+    background-color: blue;
+}
+
+/* Map locations */
+
+.map_container {
+    width: 1304px;
+}
+
+.first_map {
+    width: 754px;
+    height: 754px;
+}
+
+.notifications-container {
+    width: 100%;
+    font-family: Nunito;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map_box {
+    background-color: khaki;
+}
+
+.map_box2 {
+    background-color: indigo;
+}

@@ -1,0 +1,88 @@
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Background img */
+
+body {
+    background-image: url(../img/background2.jpg);
+}
+
+/*New mission in Tilst Header*/
+
+.tilst_header{
+  color: #ffffff;
+  font-family: 'futura-pt';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 85px;
+  line-height: 109px;
+
+  position: absolute;
+  height: 218px;
+  top: 209px;
+  left: 61px;
+}
+
+
+/* New Mission in Tilst Textbox */
+
+
+.textbox{
+  position: absolute;
+  width: 800px;
+  height: 537px;
+  left: 718px;
+  top: 209px;
+
+}
+
+.tilst_title{
+  color: #ffffff;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 94.04%;
+
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+
+}
+
+.tilst_text{
+  color: #d4d4d4;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 9.68%;
+  bottom: -1.86%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+
+/* New mission in Tilst img*/
+
+.tilst_img_box{
+margin-top: 800px;
+margin-left: 150px;
+}
+
+

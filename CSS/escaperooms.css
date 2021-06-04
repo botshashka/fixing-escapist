@@ -1,0 +1,100 @@
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Background img*/
+
+body {
+    background-image: url(../img/background2.jpg);
+}
+
+
+/* Escape rooms descriptions text box */
+
+.escape_text_box {
+   
+    color: #d4d4d4;
+    font-family: 'futura-pt', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left:   200px;
+    padding-right: 100px;
+    margin-bottom: 80px;
+    margin-top: 150px;
+}
+
+.escape_heading {
+    color: #d4d4d4;
+    font-family: 'futura-pt', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    
+}
+
+
+
+.flex_for_img{
+    display: flex;
+    width: 100%;
+    
+}
+
+    .first_escaperoom_container{
+        height: 50%;
+        width: 100%;
+       display: flex;
+        margin-left: 200px;
+        
+    
+        
+    }
+
+    .container{
+        position: relative;
+        text-align: center;
+     
+        
+margin-top: 30px;
+margin-bottom: 20px;
+    }
+
+    .bottom_left{
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+
+ 
+
+    }
+
+    .Triton_heading {
+        font-size: 40px;
+        font-family: 'futura-pt', Arial, Helvetica, sans-serif;
+        font-weight: normal;
+     
+    }
+
+    .read_more {
+          font-size: 22px;
+          font-family: 'futura-pt', Arial, Helvetica, sans-serifs;
+          font-weight: normal;
+        
+    }
+
+    .bottom_left2{
+        position: absolute;
+        bottom: 1px;
+        left: 19px;
+        
+       
+      
+          }

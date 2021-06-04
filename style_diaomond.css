@@ -1,0 +1,197 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: azure;
+}
+
+
+/*Background img*/
+
+body {
+  background-image: url(../img/background2.jpg);
+}
+
+
+/* top part of the page */
+
+.top_box{
+  width: 100%;
+  height: 50%;
+  font-weight: normal;
+  font-family: futura-pt, sans-serif;
+  
+}
+
+/* left part of the page */
+.left_part{
+  width: 40%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px ;
+
+
+}
+
+.H1_style{
+  font-size:70px ;
+  
+  font-weight: normal;
+}
+
+.text_style{
+  
+  margin-bottom: 30px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  
+  
+}
+
+/* aligning the svg with text */
+.alignffs, .texxt  {
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.alignffs , .svg{
+
+  font-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  
+ 
+  
+
+
+}
+
+
+.texxt, .svg {
+  padding-top: 10px;
+
+}
+
+.svg_2{
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.svg_3{
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 10px;
+  
+}
+
+ 
+.rigth_part{
+  width: 40%;
+  float:right;
+  margin-left: 100px;
+  margin-top: 190px;
+  font-size: 24px;
+
+}
+
+.h3_style{
+  font-size: 40px;
+ font-weight: normal;
+}
+
+/* the list of prices */
+.list_style{
+  font-weight: lighter;
+  margin-left: -40px;
+  margin-top: 50px;
+}
+
+.li_style{
+  margin-top: 8px;
+  
+}
+
+.text_list_style{
+  margin-top: 50px;
+  width: 400px;
+  margin-left: 40px;
+  
+}
+
+
+
+/* grid for arranging the images */
+
+
+.grid_container{
+  display: grid;
+  width: 100%;
+  height: 70%;
+  grid-template-columns: 800px 600px 100px;
+  grid-template-rows: 601px 95px  45px 250px 335px  ;
+  gap: 5px;
+  
+
+}
+
+
+.item1{
+grid-column: 1/1 ;
+grid-row:1/1 ;
+margin-top: 150px;
+}
+
+
+.item2{
+  grid-column:2/2 ;
+  grid-row: 1/1;
+  margin-top: 150px; 
+}
+
+
+.item3{
+  grid-column:1/1 ;
+grid-row: 3/3 ;
+}
+
+
+.item4{
+  grid-column:3/3 ;
+grid-row: 4/4 ;
+}
+
+
+
+.item5{
+  grid-column: 2/2 ;
+grid-row: 2/2;
+}
+
+
+
+.item6{
+  grid-column:1/1 ;
+grid-row:6/6;
+}
+
+
+
+.item7{
+  grid-column:2/2 ;
+grid-row:5/5 ;
+}
+
+
+.item8{
+  grid-column: 3/3;
+grid-row: 1/1 ;
+margin-top: 150px;
+
+}
+
+
+
+ 

@@ -1,0 +1,62 @@
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Background img */
+
+body {
+    background-image: url(../img/background2.jpg);
+}
+
+/* Styling for the FAQ and Our team page*/
+
+#container {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#left {
+    float: left;
+    width: 30%;
+    height: 900%;
+    margin-top: 20px;
+}
+
+#right {
+    padding-top: 10px;
+    margin: 20px;
+}
+
+/* Styling for the subtitles and text*/
+
+#faq_title {
+    font-family: 'futura-pt', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+}
+
+.faq_subtitle {
+    font-family: 'futura-pt', 'Arial', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.faq_bodytext {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.1pt;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 1.2rem;
+    color: #D4D4D4;
+}
