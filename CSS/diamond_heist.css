@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: azure;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background2.jpg);
+}
+
+/* Details of the escape room */
+
+.details-container {
+  display: flex;
+  
+}
+
+.details-container > .left {
+  display: flex;
+}
+
+

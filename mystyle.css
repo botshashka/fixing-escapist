@@ -1,17 +1,90 @@
-::after,
-::before {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 body {
@@ -89,6 +162,8 @@ a {
 
 #questionmark {
     color: #BF1B38;
+    font-size: 76px;
+    font-weight: 500;
 }
 
 /* -------- Introduction -------- */
@@ -118,6 +193,7 @@ p {
 /* Intro gallery */
 
 .intro-gallery {
+    align-self: center;
 }
 
 /* -------- Rooms -------- */
@@ -258,39 +334,50 @@ p {
     letter-spacing: 2px;
 }
 
+/* ---- Styling for the footer ---- */
+
 .footer {
-    margin-top: 50px;
     display: flex;
     width: 100%;
-    height: 150px;
     font-family: "futura-pt", "Arial", sans-serif;
     background-color: #0E0E0E;
-    margin-top: 200px;
-    justify-content: space-around;
+    padding: 75px 50px 75px 50px;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
 }
 
 .li_style1 {
-    flex: 0 0 auto;
-    padding-top: 20px;
-}
-
-.li_style2 {
-    flex: 1 0 auto;
-    padding-top: 20px;
-
+    margin-right: 50px;
 }
 
 .social_style {
-    flex: 1.5 0 auto;
-    padding-top: 80px;
-    margin-left: 915px;
-
-
+    display: block;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 180px;
 }
 
-/* ---------- Media queries ---------- */
+/* ---- Countdown clock ---- */
 
 .clock_box {
     background-image: url(/image\ 13.png);
     color: blue;
+}
+
+/* ---------- Media queries ---------- */
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 1400px) {
+    .intro-gallery img {
+        width: 40vw;
+    }
 }
